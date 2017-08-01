@@ -137,6 +137,7 @@ footer .footerText{
 footer .footerText p{
     font-size: 1.3rem;
     line-height: 2rem;
+    text-align: justify;
     color: #555555;
 }
 footer .footerText p:last-child{
@@ -183,12 +184,12 @@ footer .footerText p:last-child{
 .mask{
     position: absolute;
     top: 0px;
-    filter: alpha(opacity=50);
+    filter: alpha(opacity=60);
     background-color: #000;
     z-index: 100;
     left: 0px;
-    opacity: 0.5;
-    -moz-opacity: 0.5;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
 }
 
 /*换卡页样式*/
