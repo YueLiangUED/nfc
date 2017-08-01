@@ -180,7 +180,6 @@ footer .footerText p:last-child{
     background: url("../images/haochu.png") center no-repeat;
     background-size: cover;
 }
-
 .mask{
     position: absolute;
     top: 0px;
@@ -191,7 +190,6 @@ footer .footerText p:last-child{
     opacity: 0.6;
     -moz-opacity: 0.6;
 }
-
 /*换卡页样式*/
 .titleIcon{
     margin: 2rem auto 0;
@@ -253,3 +251,14 @@ footer .footerText p:last-child{
     background: url("../images/huanka.png") center no-repeat;
     background-size: cover;
 }
+.huanka p{
+    display: inline-block;
+    position: absolute;
+    left: 1.8rem;
+    bottom: 6.6rem;
+    width: 22rem;
+    line-height: 1.1rem;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
