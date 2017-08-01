@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>NFC卡</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div id="tcBtn"></div>
+</header>
+<section>
+    <div class="messageTitle">填写邮寄信息</div>
+    <div class="selectBox clear">
+        <span>姓名</span>
+        <input type="text" placeholder="请输入姓名">
+    </div>
+    <div class="selectBox clear jiantou">
+        <span>北京市</span><!--
+        --><select name="" id="">
+            <option value="">请选择区域</option>
+            <option value="">东城区</option>
+            <option value="">西城区</option>
+            <option value="">朝阳区</option>
+            <option value="">丰台区</option>
+            <option value="">石景山区</option>
+            <option value="">海淀区</option>
+            <option value="">顺义区</option>
+            <option value="">通州区</option>
+            <option value="">大兴区</option>
+            <option value="">房山区</option>
+            <option value="">门头沟区</option>
+            <option value="">昌平区</option>
+            <option value="">平谷区</option>
+            <option value="">密云县</option>
+            <option value="">怀柔区</option>
+            <option value="">延庆县</option>
+        </select>
+        <span></span>
+    </div>
+    <div class="selectBox clear">
+        <span>手机号</span>
+        <input type="number" pattern="\d*" placeholder="请输入手机号">
+    </div>
+    <div class="selectBox clear yz">
+        <input type="text" placeholder="请输入验证码">
+        <span id="getCode">获取验证码</span>
+    </div>
+    <div class="text">
+        <textarea name="" id="" cols="30" rows="10" placeholder="填写详细地址（仅限北京范围内）"></textarea>
+        <p>*目前仅支持北京市范围内地址配送，如超出范围,则自动取消订<br>单，谢谢您的理解与支持</p>
+    </div>
+    <div class="button"></div>
+</section>
+<footer>
+    <div class="footerTitle">温馨提示</div>
+    <div class="footerText">
+        <p>
+            1、我们将为您免费配送三切卡，适用于使用大卡、micro卡及nano卡的手机。
+        </p>
+        <p>
+            2、升级SIM卡后，NFC手机变身一卡通，公交地铁轻松刷！<a href="http://www.bj.10086.cn/mobile/nfcykt/index.html">具体活动详情点击此处查看：</a>
+        </p>
+        <p>
+            3、为尽可能保障普通用户的换卡需求，避免“黄牛”抢占资源，损害普通用户利益，特规定一个月之内“同一用户，仅配送一单”，包  括但不限于雷同、邻近、虚构的收货地址、同一下单号码等，均视为同一用户,均仅发一单，其他订单自动取消，不再联系用户，不便之处敬请谅解。
+        </p>
+        <p>
+            4、为保障送达顺利，请您填写订单时注意将收货人姓名及收货地址填写详尽；如填写的收货人姓名或收货地址无效则订单自动取消配送，不再联系用户，不便之处敬请谅解。
+        </p>
+        <p>
+            更多活动详情，请您咨询北京移动10086。
+        </p>
+    </div>
+</footer>
+<!--4大好处弹窗-->
+<div class="tc haochu">
+    <div class="tcClose"></div>
+    <div class="zdBtn"></div>
+</div>
+<!--遮罩层-->
+<div class="mask" id="mask"></div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>

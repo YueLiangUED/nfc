@@ -1,0 +1,254 @@
+header{
+    position: relative;
+    width: 37.5rem;
+    height: 21.9rem;
+    background: url("../images/header.png") center no-repeat;
+    background-size: cover;
+}
+header div{
+    position: absolute;
+    top: 6.75rem;
+    right: 0.55rem;
+    width: 7.95rem;
+    height: 7.6rem;
+    background: url("../images/headerIcon.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    box-sizing: border-box;
+    padding-top: 0.75rem;
+    width: 37.5rem;
+}
+section .messageTitle{
+    margin: 0 auto 1.35rem;
+    width: 21.25rem;
+    height: 4.1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4.1rem;
+    background: url("../images/middleTitle.png") center no-repeat;
+    background-size: cover;
+}
+section .selectBox{
+    margin: 0 auto 2rem;
+    width: 30.5rem;
+}
+section .selectBox span{
+    float: left;
+    display: inline-block;
+    width: 9.75rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 5rem 0 0 5rem;
+    background-color: #55beff;
+}
+section .selectBox select,section .selectBox input{
+    padding-left: 2rem;
+    width: 20.75rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #999999;
+    -webkit-appearance: none;
+    border: 2px solid #55beff;
+    border-radius: 0 5rem 5rem 0;
+    background-color: #ffffff;
+}
+section .selectBox.jiantou{
+    position: relative;
+}
+section .selectBox.jiantou span:last-child{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 1.25rem;
+    display: block;
+    width: 1.6rem;
+    height: 1.5rem;
+    background: url("../images/jiantou.png") center no-repeat;
+    background-size: cover;
+}
+section .selectBox input{
+    box-sizing: border-box;
+    text-align: start;
+    float: right;
+}
+section .selectBox.yz span{
+    float: right;
+    border-radius: 0 5rem 5rem 0;
+}
+section .selectBox.yz span.disabled{
+    color: #666;
+    background-color: #ccc;
+}
+section .selectBox.yz input{
+    float: left;
+    border-radius: 5rem 0 0 5rem;
+}
+section .button{
+    margin: 2rem auto 3.3rem;
+    width: 14.65rem;
+    height: 4.2rem;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+section .text{
+    margin: 0 auto;
+    width: 30.5rem;
+}
+section .text textarea{
+    box-sizing: border-box;
+    padding: 0.6rem 1rem;
+    width: 30.5rem;
+    height: 5.6rem;
+    font-size: 1.5rem;
+    border: 2px solid #55beff;
+    border-radius: 1rem;
+    resize: none;
+}
+section .text p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #55beff;
+}
+footer{
+    width: 37.5rem;
+}
+footer .footerTitle{
+    margin: 0 auto 1.4rem;
+    width: 33.05rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4rem;
+    background: url("../images/footerTitleBg.png") center no-repeat;
+    background-size: cover;
+}
+footer .footerText{
+    padding: 0.5rem 3.5rem 3rem;
+}
+footer .footerText p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #555555;
+}
+footer .footerText p:last-child{
+    text-align: center;
+    line-height: 4rem;
+}
+.tc{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+.tc .tcClose{
+    position: absolute;
+    top: 1.1rem;
+    right: 1.1rem;
+    width: 1.15rem;
+    height: 1.15rem;
+    background: url("../images/tcClose.png") center no-repeat;
+    background-size: cover;
+}
+.tc .zdBtn{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 13.2rem;
+    height: 3.75rem;
+    background: url("../images/zhidaole.png") center no-repeat;
+    background-size: cover;
+}
+.haochu{
+    display: none;
+    width: 33.8rem;
+    height: 52.85rem;
+    background: url("../images/haochu.png") center no-repeat;
+    background-size: cover;
+}
+
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=50);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+/*换卡页样式*/
+.titleIcon{
+    margin: 2rem auto 0;
+    width: 5.65rem;
+    height: 5.25rem;
+    background: url("../images/duihao.png") center no-repeat;
+    background-size: cover;
+}
+.message{
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #0185cf;
+}
+.word{
+    font-size: 1rem;
+    text-align: center;
+    color: #333333;
+}
+.ka{
+    margin: 2.2rem auto 1rem;
+    width: 21.3rem;
+    height: 13.5rem;
+    background: url("../images/ka.png") center no-repeat;
+    background-size: cover;
+}
+.changeBtn{
+    margin: 1.9rem auto 1.3rem;
+    width: 14.65rem;
+    height: 4.2rem;
+    background: url("../images/huankaBtn_01.png") center no-repeat;
+    background-size: cover;
+}
+.textWrap{
+    margin: 0 auto;
+    padding: 0.7rem 0.6rem 1.2rem;
+    width: 34.1rem;
+    background-color: #eeeeee;
+}
+.textWrap p{
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #333333;
+}
+.textWrap p:first-child{
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.textWrap p:last-child{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.huanka{
+    display: none;
+    width: 33.8rem;
+    height: 52.35rem;
+    background: url("../images/huanka.png") center no-repeat;
+    background-size: cover;
+}
