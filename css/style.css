@@ -262,5 +262,6 @@ footer .footerText p:last-child{
 }
 .huanka p a{
     display: inline;
+    white-space: normal;
 }
 
