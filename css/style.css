@@ -252,7 +252,6 @@ footer .footerText p:last-child{
     background-size: cover;
 }
 .huanka p{
-    display: inline-block;
     position: absolute;
     left: 1.8rem;
     bottom: 6.6rem;
