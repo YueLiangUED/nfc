@@ -140,10 +140,6 @@ footer .footerText p{
     text-align: justify;
     color: #555555;
 }
-footer .footerText p:last-child{
-    text-align: center;
-    line-height: 4rem;
-}
 .tc{
     position: fixed;
     top: 0;
@@ -217,7 +213,7 @@ footer .footerText p:last-child{
     background-size: cover;
 }
 .changeBtn{
-    margin: 1.9rem auto 1.3rem;
+    margin: 1.9rem auto 4rem;
     width: 14.65rem;
     height: 4.2rem;
     background: url("../images/huankaBtn_01.png") center no-repeat;
@@ -227,23 +223,13 @@ footer .footerText p:last-child{
     margin: 0 auto;
     padding: 0.7rem 0.6rem 1.2rem;
     width: 34.1rem;
-    background-color: #eeeeee;
 }
 .textWrap p{
     font-size: 1.1rem;
     text-align: justify;
     color: #333333;
 }
-.textWrap p:first-child{
-    margin-bottom: 1.2rem;
-    font-weight: bold;
-    text-align: center;
-}
-.textWrap p:last-child{
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-    text-align: center;
-}
+
 .huanka{
     display: none;
     width: 33.8rem;
@@ -254,7 +240,7 @@ footer .footerText p:last-child{
 .huanka p{
     position: absolute;
     left: 1.8rem;
-    bottom: 6.6rem;
+    bottom: 9rem;
     width: 22rem;
     line-height: 1.1rem;
     font-size: 0.9rem;
